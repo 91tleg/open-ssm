@@ -19,7 +19,7 @@ static const protocol_api_t protocol_api = {
     .get_romid_cmd = ssm1_get_romid_command,
     .get_read_cmd = ssm1_get_read_command,
     .get_stop_cmd = ssm1_get_stop_command,
-    .get_clear_cmd = ssm1_get_clear_command
+    .get_clear_cmd = ssm1_get_clear_command,
     .parser_feed   = parser_feed_adapter
 };
 
